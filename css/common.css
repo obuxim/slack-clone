@@ -91,3 +91,24 @@ h2.cta { font-size: 3rem; margin-top: 0; }
 #call-to-action .btn { margin: 0 0.5rem; }
 #footer { font-size: 0.875rem; margin-top: 3rem; }
 .footer-link { text-decoration: none; color: #000000; margin-top: 1rem; }
+#footer-seperator { margin-top: 3rem; opacity: 0.2; }
+#copyright {
+    font-size: 0.875rem;
+}
+.copyright-links { margin-top: 1rem; }
+.copyright-links a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.download { color: #1264A3; text-decoration: none; }
+.download img { padding-right: 0.5rem; }
+.social-link {
+    font-size: 1rem;
+    color: #000000;
+    margin-left: 1rem;
+}
+.copyright-text {
+    padding: 1rem 0;
+    font-size: 0.7rem;
+}
