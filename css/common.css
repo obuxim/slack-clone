@@ -12,6 +12,7 @@ html, body {
     outline: 0;
     overflow-x: hidden;
     font-family: "Helvatica Neue", Helvatica, sans-serif;
+    font-size: 1.12rem;
 }
 .flex { display: flex; }
 .flex-column { display: flex; flex-direction: column; }
@@ -67,5 +68,18 @@ h2.features { font-size: 3rem; margin-bottom: 0; }
 #features .btn-wrapper { height: 57px; }
 .responsive-media { width: 100%; height: auto; }
 #features { padding-top: 5rem; }
-#features-image { width: 57% !important; height: 100%; border-radius: 2px; overflow: hidden; }
+#features-image { width: 57% !important; height: 100%; border-radius: 4px; overflow: hidden; }
 #features-text { width: 37%; height: 25rem; }
+.text-center { text-align: center; }
+#stories h2 { font-size: 3rem; }
+.customer-message {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+#customer-story-text {
+    padding-right: 4vw;
+}
+#customer-story-image {
+    padding-left: 4vw;
+}
+#stories .container-custom { margin-top: 5rem; }
