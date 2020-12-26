@@ -26,6 +26,7 @@ html, body {
 }
 .bg-secondary { background: #F6EFE8; }
 .bg-primary { background: #3D103D; color: #ffffff; }
+.outline-primary { border: 1px solid #3D103D; color: #3D103D !important; }
 .color-primary { color: #3D103D; }
 .color-secondary { color: #F6EFE8; }
 .main-nav { height: 80px; font-size: .9375rem; }
@@ -60,6 +61,11 @@ html, body {
 #try-for-free-heading { width: 50%; height: 100%; }
 #try-for-free-image { width: 45%; height: 100%; }
 h2.hero { font-size: 4rem; margin-bottom: 0; }
+h2.features { font-size: 3rem; margin-bottom: 0; }
 .btn { padding: 1rem; text-transform: uppercase; text-decoration: none; border-radius: 5px; font-weight: 500; }
 #try-for-free .btn-wrapper { height: 57px; }
+#features .btn-wrapper { height: 57px; }
 .responsive-media { width: 100%; height: auto; }
+#features { padding-top: 5rem; }
+#features-image { width: 57% !important; height: 100%; border-radius: 2px; overflow: hidden; }
+#features-text { width: 37%; height: 25rem; }
